@@ -1,0 +1,39 @@
+
+# Frontend Mentor - QR code component solution <!-- omit in toc -->
+
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
+
+
+## Table of contents
+- [Table of contents](#table-of-contents)
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+- [Author](#author)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### Screenshot
+
+![image](./images/qr-code-component.png)
+
+### Links
+
+- Solution URL: [Solution](https://github.com/Tomomi-K1/frontend-mentor-challenges/tree/main/qr-code-component-main)
+- Live Site URL: [Live Site](https://tk-qr-code-component.netlify.app/)
+
+### Built with
+
+- HTML5 markup
+- CSS custom properties
+- Flexbox
+
+## Author
+
+- Website - [Github](https://github.com/Tomomi-K1)
+- Frontend Mentor - [@Tomomi-K1](https://www.frontendmentor.io/profile/Tomomi-K1)
+
+
