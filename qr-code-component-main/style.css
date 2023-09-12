@@ -11,14 +11,14 @@
     --fw-normal: 400;
 }
 
-html{
-    display: relative;
+body{
     background-color: var(--bg-color);
     display: flex;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
-    height: 100svh;
-    height: 100vh;
+    min-height: 100svh;
+    min-height: 100vh;
     text-align: center;
     font-family: var(--font-family);
 } 

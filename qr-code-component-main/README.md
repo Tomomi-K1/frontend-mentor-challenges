@@ -10,6 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
+- [What I learned](#what-i-learned)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -31,6 +32,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 
+## What I learned
+- Do not put styling on <html> tag unless it's necessary.
+- "alt" should be used to give the functional and contextualized label or description (rather than a visual description) and ending alt-text with punctuation is beneficial for screen reader since it will give a pause after the end of attribute sentence.
+  
 ## Author
 
 - Website - [Github](https://github.com/Tomomi-K1)
