@@ -7,7 +7,6 @@
 
 
 ## Author
-
 - Website - [Github](https://github.com/Tomomi-K1)
 - Frontend Mentor - [@Tomomi-K1](https://www.frontendmentor.io/profile/Tomomi-K1)
 

@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/3columncardcomponent-html-css-flexbox-mobilefirst-st5NQ7eH6L)
 - Live Site URL: [Live Site](https://tk-3-column-card-component.netlify.app/)
 
 ### Built with
