@@ -1,0 +1,136 @@
+:root{
+    --bg-color-orange:#E28625;
+    --bg-color-green:#006971;
+    --bg-color-darkgreen:#004140;
+    --white: #FFF;
+    --btn-white:#F2F2F2;
+    --fs-h1: 40px;
+    --fs-p: 15px;
+    --lh-p:25px;
+    --fw-bold: 700;
+    --fw-normal: 400;
+    --ff-h1:'Big Shoulders Display', cursive;
+    --ff-base:'Lexend Deca', sans-serif;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family:var(--ff-base) ;
+    font-size: var(--fs-p);
+}
+
+main{
+    margin-top: 88px;
+    width: 327px;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: var(--white);
+    font-size: var(--fs-h1);
+    font-family: var(--ff-h1);
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+p{
+    line-height: var(--lh-p);
+    color: var(--white);
+    opacity: 0.75;
+    margin: 25px auto;
+}
+
+
+section{
+    padding: 48px;
+}
+
+button{
+    width: 146px;
+    height: 48px;
+    border: none;
+    padding: 10px 28px ;
+    border-radius: 25px;
+    background: var(--btn-white);
+    line-height: 25px;
+}
+
+.card-sedans{
+    border-radius:8px 8px 0 0;
+    background-color: var(--bg-color-orange);
+}
+
+.card-sedans button{
+    color: var(--bg-color-orange);
+}
+
+.card-sedans button:hover{
+    background-color: var(--bg-color-orange);
+    border: 2px solid;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.card-suvs{
+    background-color: var(--bg-color-green);
+}
+.card-suvs button{
+    color: var(--bg-color-green);
+}
+
+.card-suvs button:hover{
+    background-color: var(--bg-color-green);
+    border: 2px solid;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.card-luxury{
+    background-color: var(--bg-color-darkgreen);
+    border-radius:0 0 8px 8px;
+}
+
+.card-luxury button{
+    color: var(--bg-color-darkgreen);
+}
+
+.card-luxury button:hover{
+    background-color: var(--bg-color-darkgreen);
+    border: 2px solid;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+@media screen and (min-width: 1440px) {
+    main{
+        width: 921px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card{
+        width: 307px;
+    }
+
+    .card-sedans button,
+    .card-suvs button,
+    .card-luxury button{
+        margin-top:58px;
+    }
+
+    .card-sedans{
+        border-radius:8px 0 0 8px;
+    }
+
+    .card-luxury{    
+        border-radius: 0 8px 8px 0;
+    }
+}
+
+
