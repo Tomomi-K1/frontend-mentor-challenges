@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](./images/3-column-card-component.png)
+![image](./images/3-column-preview-screenshot.png)
 
 ### Links
 
